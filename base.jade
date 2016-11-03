@@ -46,7 +46,7 @@ html
 							a(href="/") {{ site.title }}
 						if site.raw_content
 							.description.animated.fadeInDown
-								p= '&#9829; %s &#9829;' % site.raw_content[:100]
+								p= '&#9758; %s &#9756;' % site.raw_content[:100]
 
 				ul.social-links.animated.fadeInDown
 					if site.configs.twitter
@@ -75,12 +75,13 @@ html
 
 
 		.footer
-			a(target="_blank", href="http://{{request.domain}}")
-				span All content copyright {{site.title}} © 2015 • All rights reserved.
-				span Designed by
-				a(href="https://www.caicai.me") CaiCai
+			span All content copyright {{site.title}} © 2016 • All rights reserved.
+			span Designed by
+			a(href="https://www.caicai.me") CaiCai.
+			span Modify by 
+			a(href="http://www.jwhung.cn") JwHung.
 			.by_farbox
-				a(href="http://www.farbox.com", target="_blank") Proudly published with Farbox&#65281;
+				a(href="http://www.farbox.com", target="_blank") Proudly Publish By Farbox&#65281;
 
 
 
